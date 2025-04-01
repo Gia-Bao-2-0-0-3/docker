@@ -18,7 +18,6 @@ db.connect(err => {
     console.log('Kết nối MySQL thành công!');
   }
 });
-
 app.get('/', (req, res) => {
   res.send('Node.js & MySQL chạy trên Docker!');
 });
